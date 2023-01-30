@@ -1,0 +1,129 @@
+*{box-sizing:content-box;padding:0;margin:0;}
+html,body,#root,#App{width:100vw;height:100vh;position:relative;scroll-behavior:smooth;}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+:root{
+--bodyBackground:rgb(32 32 217 / 70%);
+--boxShadow:rgb(99, 100, 116);
+--onloadAnimationDelay:0.5s;
+--textColor:#cbc4c4;
+--violet-border-color:rgb(37 32 217 / 80%);
+}
+::-webkit-scrollbar{
+width: 10px;
+}
+::-webkit-scrollbar-track{
+background:transparent;
+}
+::-webkit-scrollbar-thumb{
+background:var(--bodyBackground);
+}
+::-webkit-scrollbar-thumb:hover{
+background:rgb(32 32 217 / 45%);
+}
+.circle::after{
+content:'';
+width:5px;
+height:22px;
+position:absolute;
+bottom:0%;
+left:50%;
+transform:translate(-50%, 100%);
+background-color:black;
+display:grid;
+}
+.circle:hover{
+scale:110%;
+}
+#downButton:hover{
+scale:120%;
+transition:scale 0.2s linear;
+}
+#downButton,#downButton::after,#downButton::before{
+animation:button 1.3s linear both infinite;
+}
+#downButton::after{
+content:'^';
+text-align:center;
+line-height:30px;
+display:block;
+width:30px;
+height:30px;
+position:absolute;
+top:0%;
+transform:translateY(-100%);
+}
+#downButton::before{
+content:'^';
+text-align:center;
+line-height:30px;
+display:block;
+width:30px;
+height:30px;
+position:absolute;
+bottom:0%;
+transform:translateY(100%);
+}
+.circle:hover~div, .circle~div:hover{
+color:white;
+}
+li:hover{
+color:white;
+font-size:1.01rem;
+list-style:square;
+}
+.flag:hover{
+opacity:0.7;
+}
+.cubeSide:hover{
+opacity:1;
+border-color:rgb(207, 66, 66);
+}
+.singleContactMethod div:hover{
+border-color:black !important;
+border-radius:20% !important;
+scale:120% !important;
+}
+@keyframes cubefrontback{
+from{transform:rotateX(-5deg);}
+to{transform:rotateX(5deg);}
+}
+@keyframes button{
+from{line-height:60px;}
+to{line-height:0px;}
+}
+@keyframes sssc{
+from{scale:0;}
+to{scale:100%;}
+}
+#LandingScreen{
+background: linear-gradient(38deg, #e66465, #9198e5);
+}
+.circle:hover{
+background-color:rgb(24, 24, 24) !important;
+}
+#downButton{
+border:solid var(--violet-border-color) 3px !important;
+color:var(--violet-border-color);
+font-size:2.2rem !important;
+}
+#Projects{
+grid-column:1/3;
+grid-row:4/6;
+width:calc(300px * 2 + 4* 10px + 6px) !important;
+}
+#ContactFrame{
+grid-column:1/3;
+width:calc(300px * 2 + 4* 10px + 6px) !important;
+}
+@media only screen and (max-width: 705px){
+#AppBody{
+display:block !important;
+width:fit-content !important;
+}
+#Projects{
+width:300px !important;
+}
+#ContactFrame{
+width:300px !important;
+}
+}

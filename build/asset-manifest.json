@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CV/build/static/css/main.0d1c781a.css",
+    "main.js": "/CV/build/static/js/main.b35e4002.js",
+    "static/media/CV_Michał_Maruszewski_PL.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_PL.3caed84fedba439faaeb.pdf",
+    "static/media/CV_Michał_Maruszewski_EN.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_EN.096c89b8ff08c59ecdf7.pdf",
+    "static/media/HTML5_Badge.svg.png": "/CV/build/static/media/HTML5_Badge.svg.860d906ddaa16acfecda.png",
+    "static/media/barIsLoaded.png": "/CV/build/static/media/barIsLoaded.e9bdb470137405d374a9.63d5d48e2d8db48c197c.png",
+    "static/media/CSSgradientGenerator2.png": "/CV/build/static/media/CSSgradientGenerator2.04eaba66666aa2468aa5.png",
+    "static/media/pokemonAPI2.png": "/CV/build/static/media/pokemonAPI2.62e47368d0c9c606226f.png",
+    "static/media/flappyBird2.png": "/CV/build/static/media/flappyBird2.9f027c0db3240d4a11e5.png",
+    "static/media/CSS3_logo.svg.png": "/CV/build/static/media/CSS3_logo.svg.84de5dab5fab27f4161c.png",
+    "static/media/197374.png": "/CV/build/static/media/197374.b9a2ba74e5f8a55977e7.png",
+    "static/media/-512.png": "/CV/build/static/media/4422549621553664904-512.0a51cd92108b220bb405.png",
+    "static/media/197529.png": "/CV/build/static/media/197529.a498d547b8c6fc3ccf55.png",
+    "static/media/React-Logo.svg": "/CV/build/static/media/React-Logo.db9a3e28dbbb2a49ea458250376525e6.svg",
+    "index.html": "/CV/build/index.html",
+    "main.0d1c781a.css.map": "/CV/build/static/css/main.0d1c781a.css.map",
+    "main.b35e4002.js.map": "/CV/build/static/js/main.b35e4002.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d1c781a.css",
+    "static/js/main.b35e4002.js"
+  ]
+}
