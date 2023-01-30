@@ -95,7 +95,6 @@ class App extends React.Component{
         width:'100%',
       },
     }
-    var setTimeOutID;
     const scrollPage=(e)=>{
       let pageHeight=document.querySelector('#LandingScreen').getBoundingClientRect().height;
 
@@ -107,10 +106,7 @@ class App extends React.Component{
       topPositions.projects=document.querySelector('#ProjectsHeader').getBoundingClientRect().top<pageHeight;
       topPositions.contact=document.querySelector('#ContactHeader').getBoundingClientRect().top<pageHeight;
       
-      if(setTimeOutID){clearTimeout(setTimeOutID)}
-      setTimeOutID=setTimeout(()=>{
-        this.setState({topPositionsState:{...topPositions}, pageHeight:pageHeight});
-      },300);
+      this.setState({topPositionsState:{...topPositions}, pageHeight:pageHeight});
     }
     const ChangeLanguage=(e)=>{
       if(e.target.alt.split(' ')[0]==='PL'){

@@ -4,7 +4,7 @@ html,body,#root,#App{width:100vw;height:100vh;position:relative;scroll-behavior:
 :root{
 --bodyBackground:rgb(32 32 217 / 70%);
 --boxShadow:rgb(99, 100, 116);
---onloadAnimationDelay:0.5s;
+--onloadAnimationDelay:0.75s;
 --textColor:#cbc4c4;
 --violet-border-color:rgb(37 32 217 / 80%);
 }
@@ -125,5 +125,15 @@ width:300px !important;
 }
 #ContactFrame{
 width:300px !important;
+}
+}
+@media only screen and (max-width:490px){
+#LandingScreen div div{
+font-size:1.4rem !important;
+}
+}
+@media only screen and (max-width:380px){
+#LandingScreen div div{
+font-size:1rem !important;
 }
 }
