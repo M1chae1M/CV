@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV/build/static/css/main.c82fc224.css",
-    "main.js": "/CV/build/static/js/main.b7c09d45.js",
+    "main.css": "/CV/build/static/css/main.0172441f.css",
+    "main.js": "/CV/build/static/js/main.2d5160b4.js",
     "static/media/CV_Michał_Maruszewski_PL.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_PL.3caed84fedba439faaeb.pdf",
     "static/media/CV_Michał_Maruszewski_EN.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_EN.096c89b8ff08c59ecdf7.pdf",
     "static/media/HTML5_Badge.svg.png": "/CV/build/static/media/HTML5_Badge.svg.860d906ddaa16acfecda.png",
@@ -15,11 +15,11 @@
     "static/media/197529.png": "/CV/build/static/media/197529.a498d547b8c6fc3ccf55.png",
     "static/media/React-Logo.svg": "/CV/build/static/media/React-Logo.db9a3e28dbbb2a49ea458250376525e6.svg",
     "index.html": "/CV/build/index.html",
-    "main.c82fc224.css.map": "/CV/build/static/css/main.c82fc224.css.map",
-    "main.b7c09d45.js.map": "/CV/build/static/js/main.b7c09d45.js.map"
+    "main.0172441f.css.map": "/CV/build/static/css/main.0172441f.css.map",
+    "main.2d5160b4.js.map": "/CV/build/static/js/main.2d5160b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c82fc224.css",
-    "static/js/main.b7c09d45.js"
+    "static/css/main.0172441f.css",
+    "static/js/main.2d5160b4.js"
   ]
 }

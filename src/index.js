@@ -39,6 +39,7 @@ class App extends React.Component{
       App:{
         display:'grid',
         justifyItems:'center',
+        // transform:'translateX(5px)',
         alignItems:'center',
         overflowX:'hidden',
         position:'relative',
@@ -47,6 +48,8 @@ class App extends React.Component{
       },
       AppBody:{
         width:'80%',
+        // transform:'translateX(5px)',
+
         position:'relative',
         display:'grid',
         gridTemplateColumns:'repeat(2, auto)',
@@ -95,9 +98,10 @@ class App extends React.Component{
         width:'100%',
       },
     }
-    const scrollPage=(e)=>{
+    const scrollPage=()=>{
       let pageHeight=document.querySelector('#LandingScreen').getBoundingClientRect().height;
 
+      topPositions.landingScreen=document.querySelector('#LandingScreen').getBoundingClientRect().top*(-1)<(document.querySelector('#LandingScreen').getBoundingClientRect().height/2);
       topPositions.aboutMe=document.querySelector('#AboutMeHeader').getBoundingClientRect().top<pageHeight;
       topPositions.education=document.querySelector('#EducationHeader').getBoundingClientRect().top<pageHeight;
       topPositions.programmingSkills=document.querySelector('#ProgrammingSkillsHeader').getBoundingClientRect().top<pageHeight;
@@ -117,23 +121,26 @@ class App extends React.Component{
       }
     }
     return(
-      <div id='App' style={styles.App} onScroll={scrollPage}>
+      <div id='App' style={styles.App} onScroll={scrollPage}
+      
+      onLoad={scrollPage}
+      >
         <ScrollButton  href="#LandingScreen" scrollToTop={true}/>
-        <LandingScreen text={this.state.translatedText.LandingScreen}/>
+        <LandingScreen text={this.state.translatedText.LandingScreen} topPositions={this.state.topPositionsState.landingScreen}/>
         <ChangeLanguages ChangeLanguage={ChangeLanguage} language={this.state.language}/>
         <div style={styles.AppBody} id='AppBody'>
           <div id='AboutMeFrame' className='frame' style={styles.frame} name='frame'>
             <div id='AboutMeHeader' style={styles.frameHeader}>{this.state.translatedText.AboutMe.header}</div>
             <AboutMe
               text={this.state.translatedText.AboutMe}
-              pageHeight={this.state.pageHeight}
+              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.aboutMe}
             />
           </div>
           <div id='Education' className='frame' style={styles.frame}>
             <div id='EducationHeader' style={styles.frameHeader}>{this.state.translatedText.Education.header}</div>
             <Education
-              pageHeight={this.state.pageHeight}
+              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.education}
               text={this.state.translatedText.Education}
             />
@@ -143,7 +150,7 @@ class App extends React.Component{
             {
               this.state.topPositionsState.programmingSkills===true?
                 <Cube
-                  pageHeight={this.state.pageHeight}
+                  // pageHeight={this.state.pageHeight}
                   topPositions={this.state.topPositionsState.programmingSkills}
                   XY="100"
                   Z="56"
@@ -161,14 +168,14 @@ class App extends React.Component{
             <div id='SoftskillsHeader' style={styles.frameHeader}>{this.state.translatedText.SoftSkills.header}</div>
             <SoftSkills
               text={this.state.translatedText.SoftSkills}
-              pageHeight={this.state.pageHeight}
+              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.softskills}
             />
           </div>
           <div id='CoursesFrame' className='frame' style={{...styles.Courses,...styles.frame}}>
             <div id='CoursesHeader' style={styles.frameHeader}>{this.state.translatedText.Courses.header}</div>
             <Courses
-              pageHeight={this.state.pageHeight}
+              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.courses}
               text={this.state.translatedText.Courses}
             />
@@ -178,7 +185,7 @@ class App extends React.Component{
               {
                 this.state.topPositionsState.projects===true?
                   <Cube
-                    pageHeight={this.state.pageHeight}
+                    // pageHeight={this.state.pageHeight}
                     topPositions={this.state.topPositionsState.projects}
                     XY="150"
                     Z="81"
@@ -207,7 +214,7 @@ class App extends React.Component{
             <div id='ContactHeader' style={styles.frameHeader}>{this.state.translatedText.Contact.header}</div>
             <Contact
               text={this.state.translatedText.Contact}
-              pageHeight={this.state.pageHeight}
+              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.contact}
               language={this.state.language}
             />

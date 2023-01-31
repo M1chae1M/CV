@@ -23,6 +23,8 @@ class LandingScreen extends React.Component{
             },
             header:{
                 fontFamily:"'Rubik Mono One', sans-serif",
+                transform:this.props.topPositions===true?'none':'scale(0%)',
+                animation:this.props.topPositions===true?'sssc 0.5s var(--onloadAnimationDelay) ease-in-out both':'none',
             },
             name:{
                 fontSize:'2rem',
@@ -32,8 +34,12 @@ class LandingScreen extends React.Component{
             },
         }
       return(
-        <div id='LandingScreen' style={styles.LandingScreen}>
-            <div style={styles.header}>
+        <div id='LandingScreen' style={styles.LandingScreen}
+        
+        >
+            <div style={styles.header}
+            
+            >
                 <div style={styles.name}>Michał Maruszewski</div>
                 <div style={styles.working}>{this.props.text.subText}</div>
             </div>
