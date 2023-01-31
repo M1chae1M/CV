@@ -34,12 +34,8 @@ class LandingScreen extends React.Component{
             },
         }
       return(
-        <div id='LandingScreen' style={styles.LandingScreen}
-        
-        >
-            <div style={styles.header}
-            
-            >
+        <div id='LandingScreen' style={styles.LandingScreen}>
+            <div style={styles.header}>
                 <div style={styles.name}>Michał Maruszewski</div>
                 <div style={styles.working}>{this.props.text.subText}</div>
             </div>

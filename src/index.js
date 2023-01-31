@@ -39,7 +39,6 @@ class App extends React.Component{
       App:{
         display:'grid',
         justifyItems:'center',
-        // transform:'translateX(5px)',
         alignItems:'center',
         overflowX:'hidden',
         position:'relative',
@@ -48,8 +47,6 @@ class App extends React.Component{
       },
       AppBody:{
         width:'80%',
-        // transform:'translateX(5px)',
-
         position:'relative',
         display:'grid',
         gridTemplateColumns:'repeat(2, auto)',

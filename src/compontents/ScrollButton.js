@@ -5,15 +5,12 @@ class ScrollButton extends React.Component{
     const styles={
       downButton:{
         position:this.props.scrollToTop===false?'absolute':'fixed',
-
         right:this.props.scrollToTop===true?'5%':'0px',
         left:this.props.scrollToTop===false?'0':'none',
         marginLeft:this.props.scrollToTop===false?'auto':'none',
         marginRight:this.props.scrollToTop===false?'auto':'none',
-
         bottom:'10%',
         display:'grid',
-        // transform:this.props.scrollToTop===false?'translateX(5px) rotate(180deg)':'none',
         transform:this.props.scrollToTop===false?'rotate(180deg)':'none',
         borderRadius:'50%',
         textAlign:'center',
