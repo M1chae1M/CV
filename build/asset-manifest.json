@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV/build/static/css/main.c0aaa209.css",
-    "main.js": "/CV/build/static/js/main.2d5160b4.js",
+    "main.js": "/CV/build/static/js/main.fd6da279.js",
     "static/media/CV_Michał_Maruszewski_PL.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_PL.3caed84fedba439faaeb.pdf",
     "static/media/CV_Michał_Maruszewski_EN.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_EN.096c89b8ff08c59ecdf7.pdf",
     "static/media/HTML5_Badge.svg.png": "/CV/build/static/media/HTML5_Badge.svg.860d906ddaa16acfecda.png",
@@ -16,10 +16,10 @@
     "static/media/React-Logo.svg": "/CV/build/static/media/React-Logo.db9a3e28dbbb2a49ea458250376525e6.svg",
     "index.html": "/CV/build/index.html",
     "main.c0aaa209.css.map": "/CV/build/static/css/main.c0aaa209.css.map",
-    "main.2d5160b4.js.map": "/CV/build/static/js/main.2d5160b4.js.map"
+    "main.fd6da279.js.map": "/CV/build/static/js/main.fd6da279.js.map"
   },
   "entrypoints": [
     "static/css/main.c0aaa209.css",
-    "static/js/main.2d5160b4.js"
+    "static/js/main.fd6da279.js"
   ]
 }

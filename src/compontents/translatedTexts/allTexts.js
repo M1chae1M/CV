@@ -5,7 +5,8 @@ const allTexts={
         },
         AboutMe:{
             header:'O mnie',
-            content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność."
+            // content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność.",
+            content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie zaczynam zapoznawać się z technologiami takimi jak: next.js i typescript."
         },
         Education:{
             header:'Edukacja',
@@ -41,7 +42,9 @@ const allTexts={
             header:'Umiejętności miękkie',
             content:['Umiejętność pracy pod presją czasu','Zdolność do szybkiego przyswajania wiedzy','Komunikatywność','Chęć poświęcania wolnego czasu na poszerzanie swoich kompetencji zawodowych','Umiejętność pracy w zespole','Umiejętność pracy w stresie'],
         },
-        ProgrammingSkills:"Umiejętności: ",
+        // ProgrammingSkills:"Umiejętności: ",
+        // ProgrammingSkills:"Moje ulubione technologie: ",
+        ProgrammingSkills:"Moje ulubione języki: ",
         Projects:"Projekty: ",
         Enclosure:{
             content:'Wyrażam zgodę na przetwarzanie moich danych osobowych w celu przeprowadzenia rekrutacji na stanowisko.',
@@ -53,7 +56,8 @@ const allTexts={
         },
         AboutMe:{
             header:'About me',
-            content:"IT specialist. I've been creating web applications in react for 6 months. Experience in working as a service technician and a junior specialist in the configuration of remote print servers, so solving problems and detecting them on my own is my everyday life."
+            // content:"IT specialist. I've been creating web applications in react for 6 months. Experience in working as a service technician and a junior specialist in the configuration of remote print servers, so solving problems and detecting them on my own is my everyday life.",
+            content:"IT specialist. I've been creating web applications in react for 6 months. Experience in working as a service technician and a junior specialist in the configuration of remote print servers, so solving problems and detecting them on my own is my everyday life. I am currently learning next.js and typescript.",
         },
         Education:{
             header:'Education',
@@ -89,7 +93,10 @@ const allTexts={
             header:'Soft skills',
             content:['Ability to work under time pressure','Communicative','Ability to acquire knowledge quickly','I am good at working in a group','Expanding professional competences in free time','Ability to work under stress'],
         },
-        ProgrammingSkills:"Skills: ",
+        // ProgrammingSkills:"Skills: ",
+        // ProgrammingSkills:"My favorite technologies: ",
+        ProgrammingSkills:"My favorite languages: ",
+        
         Projects:"Projects: ",
         Enclosure:{
             content:"I hereby give consent for my personal date to be processed for the purpose of conducting recruitment for the position for which I'm applying.",

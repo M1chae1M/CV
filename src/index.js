@@ -77,6 +77,10 @@ class App extends React.Component{
         width:'100%',
         borderBottom:'solid violet 1px',
         fontFamily:"'Rubik Mono One', sans-serif",
+
+
+
+        fontSize:'0.93rem',
       },
       img:{
         height:'100%',
@@ -130,14 +134,12 @@ class App extends React.Component{
             <div id='AboutMeHeader' style={styles.frameHeader}>{this.state.translatedText.AboutMe.header}</div>
             <AboutMe
               text={this.state.translatedText.AboutMe}
-              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.aboutMe}
             />
           </div>
           <div id='Education' className='frame' style={styles.frame}>
             <div id='EducationHeader' style={styles.frameHeader}>{this.state.translatedText.Education.header}</div>
             <Education
-              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.education}
               text={this.state.translatedText.Education}
             />
@@ -147,7 +149,6 @@ class App extends React.Component{
             {
               this.state.topPositionsState.programmingSkills===true?
                 <Cube
-                  // pageHeight={this.state.pageHeight}
                   topPositions={this.state.topPositionsState.programmingSkills}
                   XY="100"
                   Z="56"
@@ -165,14 +166,12 @@ class App extends React.Component{
             <div id='SoftskillsHeader' style={styles.frameHeader}>{this.state.translatedText.SoftSkills.header}</div>
             <SoftSkills
               text={this.state.translatedText.SoftSkills}
-              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.softskills}
             />
           </div>
           <div id='CoursesFrame' className='frame' style={{...styles.Courses,...styles.frame}}>
             <div id='CoursesHeader' style={styles.frameHeader}>{this.state.translatedText.Courses.header}</div>
             <Courses
-              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.courses}
               text={this.state.translatedText.Courses}
             />
@@ -182,7 +181,6 @@ class App extends React.Component{
               {
                 this.state.topPositionsState.projects===true?
                   <Cube
-                    // pageHeight={this.state.pageHeight}
                     topPositions={this.state.topPositionsState.projects}
                     XY="150"
                     Z="81"
@@ -211,7 +209,6 @@ class App extends React.Component{
             <div id='ContactHeader' style={styles.frameHeader}>{this.state.translatedText.Contact.header}</div>
             <Contact
               text={this.state.translatedText.Contact}
-              // pageHeight={this.state.pageHeight}
               topPositions={this.state.topPositionsState.contact}
               language={this.state.language}
             />
