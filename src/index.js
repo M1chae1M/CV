@@ -77,9 +77,6 @@ class App extends React.Component{
         width:'100%',
         borderBottom:'solid violet 1px',
         fontFamily:"'Rubik Mono One', sans-serif",
-
-
-
         fontSize:'0.93rem',
       },
       img:{
@@ -103,6 +100,7 @@ class App extends React.Component{
       let pageHeight=document.querySelector('#LandingScreen').getBoundingClientRect().height;
 
       topPositions.landingScreen=document.querySelector('#LandingScreen').getBoundingClientRect().top*(-1)<(document.querySelector('#LandingScreen').getBoundingClientRect().height/2);
+      topPositions.downButton=(document.querySelector('#LandingScreen').getBoundingClientRect().top+document.querySelector('#LandingScreen').getBoundingClientRect().height-100)>0;
       topPositions.aboutMe=document.querySelector('#AboutMeHeader').getBoundingClientRect().top<pageHeight;
       topPositions.education=document.querySelector('#EducationHeader').getBoundingClientRect().top<pageHeight;
       topPositions.programmingSkills=document.querySelector('#ProgrammingSkillsHeader').getBoundingClientRect().top<pageHeight;
@@ -110,7 +108,7 @@ class App extends React.Component{
       topPositions.courses=document.querySelector('#CoursesHeader').getBoundingClientRect().top<pageHeight;
       topPositions.projects=document.querySelector('#ProjectsHeader').getBoundingClientRect().top<pageHeight;
       topPositions.contact=document.querySelector('#ContactHeader').getBoundingClientRect().top<pageHeight;
-      
+
       this.setState({topPositionsState:{...topPositions}, pageHeight:pageHeight});
     }
     const ChangeLanguage=(e)=>{
@@ -122,12 +120,13 @@ class App extends React.Component{
       }
     }
     return(
-      <div id='App' style={styles.App} onScroll={scrollPage}
-      
-      onLoad={scrollPage}
-      >
+      <div id='App' style={styles.App} onScroll={scrollPage} onLoad={scrollPage}>
         <ScrollButton  href="#LandingScreen" scrollToTop={true}/>
-        <LandingScreen text={this.state.translatedText.LandingScreen} topPositions={this.state.topPositionsState.landingScreen}/>
+        <LandingScreen 
+          text={this.state.translatedText.LandingScreen}
+          topPositionslandingScreen={this.state.topPositionsState.landingScreen}
+          topPositionsdownButton={this.state.topPositionsState.downButton}
+        />
         <ChangeLanguages ChangeLanguage={ChangeLanguage} language={this.state.language}/>
         <div style={styles.AppBody} id='AppBody'>
           <div id='AboutMeFrame' className='frame' style={styles.frame} name='frame'>

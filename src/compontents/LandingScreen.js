@@ -23,8 +23,8 @@ class LandingScreen extends React.Component{
             },
             header:{
                 fontFamily:"'Rubik Mono One', sans-serif",
-                transform:this.props.topPositions===true?'none':'scale(0%)',
-                animation:this.props.topPositions===true?'sssc 0.5s var(--onloadAnimationDelay) ease-in-out both':'none',
+                transform:this.props.topPositionslandingScreen===true?'none':'scale(0%)',
+                animation:this.props.topPositionslandingScreen===true?'sssc 0.5s var(--onloadAnimationDelay) ease-in-out both':'none',
             },
             name:{
                 fontSize:'2rem',
@@ -39,7 +39,11 @@ class LandingScreen extends React.Component{
                 <div style={styles.name}>Michał Maruszewski</div>
                 <div style={styles.working}>{this.props.text.subText}</div>
             </div>
-            <ScrollButton scrollToTop={false} href="#ChangeLanguages"/>
+            {
+                this.props.topPositionsdownButton===true?
+                    <ScrollButton scrollToTop={false} topPositions={this.props.topPositionsdownButton} href="#ChangeLanguages"/>
+                        :null
+            }
         </div>
       );
     }

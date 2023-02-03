@@ -34,7 +34,7 @@ class ScrollButton extends React.Component{
       },
     }
     return(
-      <a href={this.props.href} style={styles.a} draggable={false}>
+      <a href={this.props.href} style={styles.a} draggable={false} id='downButtonTag'>
         <div style={styles.downButton} id='downButton'className={this.props.scrollToTop===false?'down':'up'}>{"^"}</div>
       </a>
     );

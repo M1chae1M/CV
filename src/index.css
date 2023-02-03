@@ -38,7 +38,8 @@ scale:110%;
 scale:120%;
 transition:scale 0.2s linear;
 }
-#downButton,#downButton::after,#downButton::before{
+#downButton,
+#downButton::after,#downButton::before{
 animation:button 1.3s linear both infinite;
 }
 #downButton::after{
