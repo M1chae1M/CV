@@ -31,6 +31,7 @@ class ScrollButton extends React.Component{
       a:{
         textDecoration:'none',
         color:'black',
+        overflow:'hidden',
       },
     }
     return(
