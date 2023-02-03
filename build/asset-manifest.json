@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/CV/build/static/css/main.c0aaa209.css",
-    "main.js": "/CV/build/static/js/main.7ce1b1d6.js",
-    "static/media/CV_Michał_Maruszewski_PL.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_PL.3caed84fedba439faaeb.pdf",
-    "static/media/CV_Michał_Maruszewski_EN.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_EN.096c89b8ff08c59ecdf7.pdf",
+    "main.js": "/CV/build/static/js/main.49107c55.js",
+    "static/media/CV_Michał_Maruszewski_PL.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_PL.442c9a88b1cfb52e19d9.pdf",
+    "static/media/CV_Michał_Maruszewski_EN.pdf": "/CV/build/static/media/CV_Michał_Maruszewski_EN.cef014bfea9ce6d4c674.pdf",
     "static/media/HTML5_Badge.svg.png": "/CV/build/static/media/HTML5_Badge.svg.860d906ddaa16acfecda.png",
     "static/media/barIsLoaded.png": "/CV/build/static/media/barIsLoaded.e9bdb470137405d374a9.63d5d48e2d8db48c197c.png",
     "static/media/CSSgradientGenerator2.png": "/CV/build/static/media/CSSgradientGenerator2.04eaba66666aa2468aa5.png",
@@ -16,10 +16,10 @@
     "static/media/React-Logo.svg": "/CV/build/static/media/React-Logo.db9a3e28dbbb2a49ea458250376525e6.svg",
     "index.html": "/CV/build/index.html",
     "main.c0aaa209.css.map": "/CV/build/static/css/main.c0aaa209.css.map",
-    "main.7ce1b1d6.js.map": "/CV/build/static/js/main.7ce1b1d6.js.map"
+    "main.49107c55.js.map": "/CV/build/static/js/main.49107c55.js.map"
   },
   "entrypoints": [
     "static/css/main.c0aaa209.css",
-    "static/js/main.7ce1b1d6.js"
+    "static/js/main.49107c55.js"
   ]
 }
