@@ -76,7 +76,7 @@ export default class Contact extends React.Component{
                   // href={`${env.PUBLIC_URL}/pdf/CV_Michał_Maruszewski_PL.pdf`}
                   // href={process.env.REACT_APP_PUBLIC_URL+'/pdf/CV_Michał_Maruszewski_PL.pdf'}
                   // href={'./pdf/CV_Michał_Maruszewski_PL.pdf'}
-                  href={this.props.language==='PL'?'./pdf/CV_Michał_Maruszewski_PL.pdf':'./pdf/CV_Michał_Maruszewski_PL.pdf'}
+                  href={this.props.language==='PL'?'./pdf/CV_Michał_Maruszewski_PL.pdf':'./pdf/CV_Michał_Maruszewski_EN.pdf'}
 
                   download={this.props.text.Download.downloadedFileName}
                   alt={this.props.text.Download.alt}
