@@ -9,9 +9,7 @@ const CubeSideColors=[
   'blue',
 ];
 
-
-
-class Cube extends React.Component{
+export default class Cube extends React.Component{
   shouldComponentUpdate(){return false}
   render(){
     const styles={
@@ -78,5 +76,3 @@ class Cube extends React.Component{
     );
   }
 }
-
-export default Cube;

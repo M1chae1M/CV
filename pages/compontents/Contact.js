@@ -9,15 +9,6 @@ import downloadIMG from './img/18499553021577539681-512.png';
 // import cvPL from '../pdf/CV_Michał_Maruszewski_PL.pdf';
 // import cvEN from '../pdf/CV_Michał_Maruszewski_EN.pdf';
 
-// import dynamic from 'next/dynamic';
-// const PdfFile = dynamic(() => import('../public/pdf/CV.pdf'))
-// const PdfFile = dynamic(() => import('../../public/pdf/CV_Michał_Maruszewski_PL.pdf'))
-// const cv = require('../../public/pdf/CV_Michał_Maruszewski_PL.pdf');
-
-// const env = process.env;
-// env.PUBLIC_URL = env.PUBLIC_URL || '';
-
-
 export default class Contact extends React.Component{
   render(){
     const styles={
@@ -69,30 +60,10 @@ export default class Contact extends React.Component{
                 <SingleContactMethod
                   name={"Download"}
                   src={downloadIMG.src}
-                  // href={this.props.language==='PL'?cvPL:cvEN}
-                  // href={this.props.language==='PL'?(process.env.PUBLIC_URL+'/pdf/CV_Michał_Maruszewski_PL.pdf'):(process.env.PUBLIC_URL+'/pdf/CV_Michał_Maruszewski_EN.pdf')}
-                  // href={PdfFile}
-                  // href={process.env.PUBLIC_URL+'/pdf/CV_Michał_Maruszewski_PL.pdf'}
-                  // href={`${env.PUBLIC_URL}/pdf/CV_Michał_Maruszewski_PL.pdf`}
-                  // href={process.env.REACT_APP_PUBLIC_URL+'/pdf/CV_Michał_Maruszewski_PL.pdf'}
-                  // href={'./pdf/CV_Michał_Maruszewski_PL.pdf'}
                   href={this.props.language==='PL'?'./pdf/CV_Michał_Maruszewski_PL.pdf':'./pdf/CV_Michał_Maruszewski_EN.pdf'}
-
                   download={this.props.text.Download.downloadedFileName}
                   alt={this.props.text.Download.alt}
                 />
-                
-                {/* {
-                process.env.PUBLIC_URL?
-                  console.log(process.env.PUBLIC_URL):
-                    console.log('')
-                } */}
-                {/* {
-                  process.env.REACT_APP_PUBLIC_URL?
-                    console.log(process.env.REACT_APP_PUBLIC_URL):
-                      console.log('')
-                } */}
-
               </React.Fragment>
                 :null
           }

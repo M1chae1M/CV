@@ -2,7 +2,7 @@
 import React from 'react';
 import Werse from './Education/Werse';
 
-class Education extends React.Component{
+export default class Education extends React.Component{
   render(){
     const styles={
       Education:{
@@ -26,5 +26,3 @@ class Education extends React.Component{
     );
   }
 }
-  
-export default Education;

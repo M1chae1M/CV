@@ -1,6 +1,6 @@
 import React from 'react';
 
-class SoftSkills extends React.Component{
+export default class SoftSkills extends React.Component{
   render(){
     const styles={
       SoftSkills:{
@@ -25,5 +25,3 @@ class SoftSkills extends React.Component{
     );
   }
 }
-
-export default SoftSkills;

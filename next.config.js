@@ -3,8 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-// module.exports = nextConfig
-
 module.exports = {
   webpack: (config, options) => {
     config.module.rules.push({
@@ -14,6 +12,3 @@ module.exports = {
     return config;
   },
 };
-
-// const withManifest = require('next-manifest');
-// module.exports = withManifest();
