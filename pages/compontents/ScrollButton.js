@@ -1,6 +1,9 @@
 import React from 'react';
 
-class ScrollButton extends React.Component{
+import Link from 'next/link';
+
+
+export default class ScrollButton extends React.Component{
   render(){
     const styles={
       downButton:{
@@ -35,11 +38,9 @@ class ScrollButton extends React.Component{
       },
     }
     return(
-      <a href={this.props.href} style={styles.a} draggable={false} id='downButtonTag'>
+      <a style={styles.a} draggable={false} id='downButtonTag' onClick={()=>{document.querySelector(this.props.href).scrollIntoView()}}>
         <div style={styles.downButton} id='downButton'className={this.props.scrollToTop===false?'down':'up'}>{"^"}</div>
       </a>
     );
   }
 }
-
-export default ScrollButton;

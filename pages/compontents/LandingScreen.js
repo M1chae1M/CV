@@ -47,7 +47,10 @@ export default class LandingScreen extends React.Component{
             </div>
             {
                 this.props.topPositionsdownButton===true?
-                    <ScrollButton scrollToTop={false} topPositions={this.props.topPositionsdownButton} href="#ChangeLanguages"/>
+                    <ScrollButton scrollToTop={false} topPositions={this.props.topPositionsdownButton}
+                    href="#ChangeLanguages"
+                    // ChangeLanguages
+                    />
                         :null
             }
         </div>

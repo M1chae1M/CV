@@ -13,13 +13,11 @@ export default class AboutMe extends React.Component{
     }
     return(
       <div id='AboutMe' style={styles.AboutMe} name="AboutMe">
-
         {
-        this.props.text?
-          this.props.text.content:
-            null
-      
-      }
+          this.props.text?
+            this.props.text.content:
+              null
+        }
       </div>
     );
   }
