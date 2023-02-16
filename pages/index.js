@@ -32,7 +32,8 @@ var allTexts={
       },
       AboutMe:{
           header:'O mnie',
-          content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie zaczynam zapoznawać się z technologiami takimi jak: next.js i typescript."
+          // content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie zaczynam zapoznawać się z technologiami takimi jak: next.js i typescript.",
+          content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie uczę się takich technologii jak next.js i typescript.",
       },
       Education:{
           header:'Edukacja',
