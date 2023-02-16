@@ -33,7 +33,7 @@ var allTexts={
       AboutMe:{
           header:'O mnie',
           // content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie zaczynam zapoznawać się z technologiami takimi jak: next.js i typescript.",
-          content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie uczę się takich technologii jak next.js i typescript.",
+          content:"Technik informatyk. Tworzę aplikacje webowe w react'cie od pół roku. Doświadczenie w pracy jako serwisant oraz młodszy specjalista od konfiguracji serwerów wydruku podążającego, więc rozwiązywanie problemów i samodzielne ich wykrywanie to moja codzienność. Aktualnie uczę się takich technologii jak next.js i typescript. Obecnie mieszkam w Lublinie i jestem zainteresowany pracą w tej lokalizacji, lub jej okolicach, chociaż jestem otwarty na możliwość pracy zdalnej.",
       },
       Education:{
           header:'Edukacja',
@@ -81,7 +81,10 @@ var allTexts={
       },
       AboutMe:{
           header:'About me',
-          content:"IT specialist. I've been creating web applications in react for 6 months. Experience in working as a service technician and a junior specialist in the configuration of remote print servers, so solving problems and detecting them on my own is my everyday life. I am currently learning next.js and typescript.",
+          // content:"IT specialist. I've been creating web applications in react for 6 months. Experience in working as a service technician and a junior specialist in the configuration of remote print servers, so solving problems and detecting them on my own is my everyday life. I am currently learning next.js and typescript.",
+          content:"IT specialist. I've been creating web applications in react for 6 months. Experience in working as a service technician and a junior specialist in the configuration of remote print servers, so solving problems and detecting them on my own is my everyday life. I am currently learning next.js and typescript. I currently reside in Lublin and I am interested in working in this location, although I am open to the possibility of remote work.",
+          // Obecnie mieszkam w Lublinie i jestem zainteresowany pracą w tej lokalizacji, lub jej okolicach, chociaż jestem otwarty na możliwość pracy zdalnej.
+          // I currently reside in Lublin and I am interested in working in this location, although I am open to the possibility of remote work.
       },
       Education:{
           header:'Education',
