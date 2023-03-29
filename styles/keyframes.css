@@ -1,0 +1,12 @@
+@keyframes cubefrontback{
+from{transform:rotateX(-5deg);}
+to{transform:rotateX(5deg);}
+}
+@keyframes button{
+from{line-height:60px;}
+to{line-height:0px;}
+}
+@keyframes onLoadAnimation{
+from{scale:0;}
+to{scale:100%;}
+}
