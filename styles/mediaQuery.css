@@ -1,47 +1,61 @@
 @media only screen and (max-width:840px){
-.up{right:3% !important;}
+    .up{
+        right:3% !important;
+    }
 }
 @media only screen and (max-width:800px){
-.up{right:1% !important;}
+    .up{
+        right:1% !important;
+    }
 }
 @media only screen and (max-width:770px){
-.up{right:3px !important;}
+    .up{
+        right:3px !important;
+    }
 }
 @media only screen and (max-width:740px){
-.up{display:none !important;}
+    .up{
+        display:none !important;
+    }
 }
 @media only screen and (max-width: 705px){
-#AppBody{
-display:block !important;
-width:fit-content !important;
-}
-#Projects{
-width:300px !important;
-}
-#ContactFrame{
-width:300px !important;
-}
-.up{
-right:5% !important;
-display:grid !important;
-}
+    #AppBody{
+        display:block !important;
+        width:fit-content !important;
+    }
+    #Projects{
+        width:300px !important;
+    }
+    #ContactFrame{
+        width:300px !important;
+    }
+    .up{
+        right:5% !important;
+        display:grid !important;
+    }
 }
 @media only screen and (max-width:490px){
-#LandingScreen div div{
-font-size:1.4rem !important;
-}
+    #LandingSCR div div{
+        font-size:1.4rem !important;
+    }
 }
 @media only screen and (max-width:440px){
-.up{right:1.5% !important;}
+    .up{
+        right:1.5% !important;
+    }
 }
 @media only screen and (max-width:410px){
-.up{right:0% !important;}
+    .up{
+        right:0% !important;
+    }
 }
 @media only screen and (max-width:390px){
-.up{display:none !important;}
+    .up{
+        display:none !important;
+    }
 }
 @media only screen and (max-width:380px){
-#LandingScreen div div{
-font-size:1rem !important;
-}
+    #LandingSCR div div{
+        font-size:1rem !important;
+    }
 }

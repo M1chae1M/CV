@@ -1,23 +1,19 @@
 {
-  "name": "landingpage_next_js",
+  "name": "empty",
   "version": "0.1.0",
-  "homepage": "https://m1chae1m.github.io/CV/build",
-  "private": false,
+  "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.1.6",
-    "next": "13.1.6",
-    "pdfjs-dist": "^3.3.122",
+    "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-pdf": "^6.2.2",
-    "styled-components": "^5.3.6"
+    "react-intersection-observer": "^9.5.2",
+    "styled-components": "^5.0.0",
+    "update": "^0.7.4"
   }
 }

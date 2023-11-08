@@ -23,6 +23,15 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px
 CSS:
 https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png
 
+Next.js:
+https://www.svgrepo.com/show/354113/nextjs-icon.svg
+
+mySQL:
+https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png
+
+python:
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png
+
 english language:
 https://www.flaticon.com/free-icon/united-kingdom_197374
 
