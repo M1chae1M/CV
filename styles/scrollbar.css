@@ -8,5 +8,5 @@
     background:var(--bodyBackground);
 }
 ::-webkit-scrollbar-thumb:hover{
-    background:rgb(32 32 217 / 45%);
+    background:rgb(32 32 217/45%);
 }

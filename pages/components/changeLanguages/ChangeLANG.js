@@ -32,6 +32,6 @@ export default class ChangeLANG extends Component{
                     <Flag src={english} lang={'EN'} alt={`EN flag`} {...this.props}/>
                 </div>
             </div>
-        );
+        )
     }
 }
