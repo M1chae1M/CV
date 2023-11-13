@@ -32,6 +32,9 @@ https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png
 python:
 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png
 
+bootstrap:
+https://cdn.iconscout.com/icon/free/png-512/free-bootstrap-226077.png?f=webp&w=256
+
 english language:
 https://www.flaticon.com/free-icon/united-kingdom_197374
 
