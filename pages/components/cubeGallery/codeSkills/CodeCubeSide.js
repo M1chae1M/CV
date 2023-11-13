@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React,{Component} from 'react';
 
 export default class CodeCubeSide extends Component{
   render(){
-    const {context,src,txtColor}=this.props;
-    const alt=`${context} logo`;
+    const {context,src,txtColor,logoColor}=this.props;
     const color=txtColor?txtColor:'black'
     const styles={
       container:{
@@ -18,14 +17,16 @@ export default class CodeCubeSide extends Component{
       },
       color:{
         color,
+      },
+      logo:{
+        fontSize:'2rem',
+        color:logoColor,
       }
     }
     return(
       <div style={styles.container}>
         <div style={styles.color}>{context}</div>
-        <div>
-          <img src={src} alt={alt} style={styles.img} draggable={false}/>
-        </div>
+        <div style={styles.logo}>{src}</div>
       </div>
     )
   }

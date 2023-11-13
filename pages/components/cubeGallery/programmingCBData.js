@@ -1,39 +1,42 @@
-import reactIMG from '../img/programmingLanguages/React-Logo.svg';
-import mySqlIMG from '../img/programmingLanguages/mySQLlogo.png';
-import jsIMG from '../img/programmingLanguages/Javascript_Logo.png';
-import nextIMG from '../img/programmingLanguages/nextjs-icon.svg';
-// import pythonIMG from '../img/programmingLanguages/python.png'
-import bootstrapIMG from '../img/programmingLanguages/bootstrap.webp'
-import cssIMG from '../img/programmingLanguages/CSS3_logo.svg.png'
 import Colors from '@/config/colors.json';
+
+import {FaBootstrap,FaReact} from 'react-icons/fa'
+import {SiJavascript,SiNextdotjs} from 'react-icons/si'
+import {BiLogoCss3} from 'react-icons/bi'
+import {GrMysql} from 'react-icons/gr'
 
 export const programmingCBData={
     sides:[
         {
             id:0,
-            src:jsIMG.src,
+            src:<SiJavascript/>,
             context:"JS",
             startsOn:0,
+            color:'black',
             bgColor:Colors[0]
         },
         {
             id:1,
-            src:reactIMG.src,
+            src:<FaReact/>,
             context:"React",
             startsOn:90,
+            txtColor:'#00caff',
+            color:'#00caff',
             bgColor:Colors[1]
         },
         {
             id:2,
-            src:nextIMG.src,
+            src:<SiNextdotjs/>,
             context:"NEXT.JS",
             startsOn:180,
             bgColor:Colors[2]
         },
         {
             id:3,
-            src:mySqlIMG.src,
+            src:<GrMysql/>,
             context:"mySQL",
+            txtColor:'black',
+            color:'black',
             startsOn:270,
             bgColor:Colors[3]
         },
@@ -41,21 +44,17 @@ export const programmingCBData={
     top:[
         {
             id:4,
-            // src:pythonIMG.src,
-            src:bootstrapIMG.src,
-            // context:"Python",
+            src:<FaBootstrap/>,
             context:"Bootstrap",
-            // color:Colors[Colors.length-2],
-            color:'#4a214a',
+            txtColor:'#4a214a',
+            color:'rgb(77,2,163)',
             rotateX:90,
-            // bgColor:Colors[4]
             bgColor:'rgb(206,47,255)',
         },
         {
             id:5,
-            src:cssIMG.src,
+            src:<BiLogoCss3/>,
             context:"CSS",
-            // color:Colors[Colors.length-1],
             color:'#0000e7',
             rotateX:-90,
             bgColor:Colors[5]
@@ -65,5 +64,3 @@ export const programmingCBData={
 
 const T=()=><div></div>
 export default T
-
-// bootstrap dodaj może
