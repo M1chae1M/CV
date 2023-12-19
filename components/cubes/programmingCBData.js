@@ -61,6 +61,3 @@ export const programmingCBData={
         },
     ]
 }
-
-const T=()=><div></div>
-export default T

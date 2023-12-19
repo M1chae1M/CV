@@ -1,5 +1,6 @@
 import CubeSide from "../CubeSide"
-import {programmingCBData} from "../programmingCBData"
+// import {programmingCBData} from "../programmingCBData"
+import {programmingCBData} from "@/components/cubes/programmingCBData"
 import CodeCubeSide from "./CodeCubeSide"
 
 const CodeSkillsTop=()=>(

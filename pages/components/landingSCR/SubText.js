@@ -2,11 +2,13 @@ import React,{PureComponent} from 'react';
 import styled, {keyframes} from 'styled-components';
 
 const typingAnimation=keyframes`
-from{width:0%}
-to{width:100%}`;
+  from{width:0%}
+  to{width:100%}
+`;
 const blinkCaretAnimation=keyframes`
-from, to{border-color:transparent}
-50% {border-color:orange}`;
+  from, to{border-color:transparent}
+  50% {border-color:orange}
+`;
 
 export default class SubText extends PureComponent{
   render(){

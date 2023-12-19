@@ -1,13 +1,17 @@
 import repoURL from '@/config/repoURL.json'
-import chessProject from '../img/preview/chess.png';
 // import pokemonApiProject from '../img/preview/pokemonAPI2.png';
 // import zeroAuth from '../img/preview/0Auth.png';
 // import zeroAuth from '../img/preview/0Auth2.png';
-import zeroAuth from '../img/preview/0Auth3.png';
 // import flappyBirdProject from '../img/preview/flappyBird2.png';
 // import shoeShopProj from '../img/preview/shoeShop.png';
 // import calendarProject from '../img/preview/calendar.png';
-import rubikscubeProject from '../img/preview/rubik-s-cube.png';
+import rubikscubeProject from '@/pages/components/img/preview/rubik-s-cube.png';
+import chessProject from '@/pages/components/img/preview/chess.png';
+// import rubikscubeProject from '../img/preview/rubik-s-cube.png';
+// import chessProject from '../img/preview/chess.png';
+// import zeroAuth from '../img/preview/0Auth3.png';
+import zeroAuth from '@/pages/components/img/preview/0Auth3.png';
+
 
 export const projectCBData={
     sides:[
@@ -92,6 +96,3 @@ export const projectCBData={
         },
     ]
 }
-
-const T2=()=><div></div>
-export default T2
