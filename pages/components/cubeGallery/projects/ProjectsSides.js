@@ -1,5 +1,4 @@
 import CubeSide from "../CubeSide"
-// import {projectCBData} from "../projectCBData"
 import {projectCBData} from "@/components/cubes/projectCBData"
 import ProjectCudeSide from "./ProjectCubeSide"
 
