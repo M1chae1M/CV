@@ -7,7 +7,7 @@ import Education from './components/education/Education';
 import Enclosure from './components/enclosure/Enclosure';
 import SoftSkills from './components/softSkills/SoftSkills';
 import Cube from './components/cubeGallery/Cube';
-import {allTexts} from './_document';
+import {texts} from '@/components/texts';
 import ScrollBTN from './components/landingSCR/ScrollBTN';
 import LandingSCR from './components/landingSCR/LandingSCR';
 import ChangeLANG from './components/changeLanguages/ChangeLANG';
@@ -24,14 +24,14 @@ export const TranslatedCTX=React.createContext();
 export default class App extends Component{
   state={
     language:'PL',
-    translatedTXT:allTexts.polish,
+    translatedTXT:texts.polish,
   }
   render(){
     const {translatedTXT, language}=this.state;
     const changeLANG=(e)=>this.setState(
       e.target.alt.split(' ')[0]==='PL'?
-      {translatedTXT:allTexts.polish, language:'PL'}:
-      {translatedTXT:allTexts.english, language:'EN'}
+      {translatedTXT:texts.polish, language:'PL'}:
+      {translatedTXT:texts.english, language:'EN'}
     )
     return(
       <TranslatedCTX.Provider value={{translatedTXT,language}}>
